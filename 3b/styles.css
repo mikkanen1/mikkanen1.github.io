@@ -1,1 +1,22 @@
+<style>
+body {
+  background-color: Black;
+}
 
+h1 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 12px;
+  color: Green;
+}
+
+.myDiv {
+  border: 2px dotted;
+  background-color: lightblue;    
+  text-align: center;
+  width: 100px;
+  height: 100px;
