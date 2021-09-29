@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles1.css">
+
+<style>
+body {
+  background-color: Black;
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+<div class="myDiv">
+
+p {
+  font-size: 12px;
+  color: Green;
+}
+</style>
+</head>
+<body>
+
+<h1>Tuntuisi kuin olisi uimakoulussa betonirengas ympärillä</h1>
+<p>Tässä tuntuisi olevan joku ongelma</p>
+
+</body>
+</html>
