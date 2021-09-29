@@ -13,7 +13,7 @@ p {
   color: Green;
 }
 
-myDiv {
+MyDiv {
   
   border: 2px dotted;
   background-color: lightblue;    
@@ -21,6 +21,3 @@ myDiv {
   height: 100px; 
 }
 
-<div class="myDiv">
-  <h2>Toivottavasti näyttää järkevältä</h2>
-</div>
