@@ -1,6 +1,7 @@
-Body {
-Background-color: Black
-} 
+body {
+ background-color: black;
+ color: white;
+}
 
 h1 {
   color: white;
