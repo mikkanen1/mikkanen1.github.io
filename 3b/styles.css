@@ -9,6 +9,10 @@ h1 {
   text-align: center;
 }
 
+h2 {
+toivottavasti näyttää järkevältä
+}
+
 p {
   font-size: 12px;
   color: Green;
@@ -25,4 +29,3 @@ p {
 
 <div id="mydiv">
 </div>
-
