@@ -1,7 +1,6 @@
-<style>
-body {
-  background-color: Black;
-}
+Body {
+Background-color: Black
+} 
 
 h1 {
   color: white;
@@ -15,16 +14,12 @@ p {
 }
 
 .myDiv {
+  
   border: 2px dotted;
   background-color: lightblue;    
   width: 100px;
-  height: 100px;
+  height: 100px; 
 }
-</style>
-</head>
-<body>
-
-<h1>The div element</h1>
 
 <div class="myDiv">
   <h2>Toivottavasti näyttää järkevältä</h2>
