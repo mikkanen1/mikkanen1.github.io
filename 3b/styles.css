@@ -16,6 +16,7 @@ p {
 
 MyDiv {
   
+  color: White;
   border: 2px dotted;
   background-color: lightblue;    
   width: 100px;
