@@ -14,7 +14,7 @@ p {
   color: Green;
 }
 
-MyDiv {
+#mydiv {
   
   color: White;
   border: 2px dotted;
@@ -22,4 +22,7 @@ MyDiv {
   width: 100px;
   height: 100px; 
 }
+
+<div id="mydiv">
+</div>
 
