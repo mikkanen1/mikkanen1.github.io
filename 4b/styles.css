@@ -16,9 +16,10 @@ p{
 	background-color: blue;
 	border-radius: 12px;
 	padding: 5px;
-
 }
+
+
 img {
 	width: 25%;
-
+	overflow: visible;
 }
