@@ -1,1 +1,24 @@
 
+
+
+
+body {
+	background-color: pink;
+
+}
+h1 {
+	border: 2px	solid black;
+	border-radius: 5px;
+	padding: 5px;
+
+}
+p{
+	background-color: blue;
+	border-radius: 12px;
+	padding: 5px;
+
+}
+img {
+	width: 25%;
+
+}
