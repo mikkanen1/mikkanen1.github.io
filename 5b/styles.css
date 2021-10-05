@@ -1,0 +1,48 @@
+
+
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }  
+
+.header {
+    background-color: rgb(248, 1, 1);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.nav {
+    width: 30%;
+    height: 200px; 
+    background: rgba(68, 7, 7, 0.479);
+    padding: 50px;
+  }
+ .aside{
+     background: blueviolet;
+     float: right;
+  padding: 20px;
+  width: 64%;
+ }
+
+    .section {
+        width: 100%;
+background: rosybrown;
+float: right;
+color: silver;
+padding: 20px;
+    }
+    .footer{
+float: right;
+border-color: greenyellow;
+background-color: hotpink;
+padding: 10%;
+width: 644px;
+    }
+    .article{
+        background-color: indigo;
+        height: 175px;
+        width: auto;
+        color: red;
+    }
