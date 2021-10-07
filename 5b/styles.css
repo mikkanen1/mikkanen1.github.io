@@ -25,10 +25,12 @@ body {
      float: right;
   padding: 20px;
   width: 30%;
+  height: auto;
  }
 
     .section {
         width: 70%;
+        height: auto;
 background: rosybrown;
 float: middle;
 color: gold;
