@@ -18,7 +18,7 @@ body {
     height: 235px; 
     background: rgba(68, 7, 7, 0.479);
     padding: 50px;
-    bottom: 50px;
+    bottom: 75px;
   }
  .aside{
      background: blueviolet;
@@ -47,5 +47,5 @@ width: 644px;
         height: 185px;
         width: auto;
         color: red;
-        top: 50px;
+        top: 75px;
     }
