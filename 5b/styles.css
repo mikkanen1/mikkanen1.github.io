@@ -28,9 +28,9 @@ body {
  }
 
     .section {
-        width: 90%;
+        width: 100%;
 background: rosybrown;
-float: right;
+float: middle;
 color: gold;
 padding: 20px;
     }
