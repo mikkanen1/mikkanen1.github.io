@@ -30,7 +30,7 @@ body {
         width: 100%;
 background: rosybrown;
 float: right;
-color: silver;
+color: gold;
 padding: 20px;
     }
     .footer{
@@ -42,7 +42,7 @@ width: 644px;
     }
     .article{
         background-color: indigo;
-        height: 175px;
+        height: 185px;
         width: auto;
         color: red;
     }
