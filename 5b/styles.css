@@ -4,6 +4,7 @@ body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    background-color: indigo;
     }  
 
 .header {
@@ -24,15 +25,17 @@ body {
      background: blueviolet;
      float: right;
   width: 40%;
-  height: auto;
+  height: 15%;
+  padding: 20px;
  }
 
     .section {
         width: 60%;
-        height: auto;
+        height: 15%;
 background: rosybrown;
 float: middle;
 color: gold;
+padding: 20px;
     }
 
     .footer{
@@ -44,7 +47,7 @@ width: 70%;
     }
     .article{
         background-color: indigo;
-        height: 185px;
+        height: 195px;
         width: auto;
         color: red;
         top: 75px;
