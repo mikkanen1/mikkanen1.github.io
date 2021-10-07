@@ -23,8 +23,7 @@ body {
  .aside{
      background: blueviolet;
      float: right;
-  padding: 20px;
-  width: 30%;
+  width: 40%;
   height: auto;
  }
 
@@ -34,7 +33,6 @@ body {
 background: rosybrown;
 float: middle;
 color: gold;
-padding: 20px;
     }
 
     .footer{
