@@ -28,7 +28,7 @@ body {
  }
 
     .section {
-        width: 100%;
+        width: 95%;
 background: rosybrown;
 float: right;
 color: gold;
@@ -47,4 +47,5 @@ width: 644px;
         height: 185px;
         width: auto;
         color: red;
+        top: 50px;
     }
