@@ -33,6 +33,7 @@ float: right;
 color: gold;
 padding: 20px;
     }
+
     .footer{
 float: right;
 border-color: greenyellow;
@@ -42,7 +43,7 @@ width: 644px;
     }
     .article{
         background-color: indigo;
-        height: 185px;
+        height: 195px;
         width: auto;
         color: red;
     }
