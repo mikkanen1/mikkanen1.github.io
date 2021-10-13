@@ -1,1 +1,33 @@
+body {
+    background-color: lightblue;
+  }
 
+header {
+    background-color: red;
+    padding: 30px;
+}
+
+section {
+float: right;
+    background-color: rgb(4, 240, 16);
+    padding: 20px;
+    width: 75%;
+    text-align: center;
+  }
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color:grey;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
