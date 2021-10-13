@@ -5,29 +5,42 @@ body {
 header {
     background-color: red;
     padding: 30px;
+    text-align: center;
+
 }
 
 section {
 float: right;
     background-color: rgb(4, 240, 16);
-    padding: 20px;
-    width: 75%;
+    padding: 15px;
+    width: 83%;
     text-align: center;
+    height: 30%;
   }
 
 nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
+    width: 15%;
     background-color:grey;
     position: fixed;
     height: 100%;
     overflow: auto;
   }
 
+  a:link {
+    color: blue;
+  }
+
+  a:hover {
+    color: red;
+
   footer {
-    background-color: #777;
-    padding: 10px;
+    background-color: grey;
+    padding: 15px;
+    float: :bottom;
+    width: 83%;
     text-align: center;
     color: white;
+    height: 50%;
