@@ -29,18 +29,18 @@ nav {
     overflow: auto;
   }
 
+  footer{clear: both;}
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
+
   a:link {
     color: blue;
   }
 
   a:hover {
     color: red;
-
-  footer {
-    background-color: grey;
-    padding: 15px;
-    float: :bottom;
-    width: 83%;
-    text-align: center;
-    color: white;
-    height: 50%;
