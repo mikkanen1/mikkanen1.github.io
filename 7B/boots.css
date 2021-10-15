@@ -1,8 +1,8 @@
-body{
-    background-color: black;
+body {
+    background-color: gray;
 }
 
-div {
+.row {
     background-color: black;
     color: white;
     border: dotted;
