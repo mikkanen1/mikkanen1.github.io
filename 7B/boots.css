@@ -1,1 +1,10 @@
+body{
+    background-color: black;
+}
 
+div {
+    background-color: black;
+    color: white;
+    border: dotted;
+    padding: 10px;
+}
