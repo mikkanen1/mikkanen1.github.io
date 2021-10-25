@@ -16,12 +16,25 @@ header {
     font-size: 30px;
     color: white;
   }
+  .container {
+    align-items: center;
+    justify-content: center
+  }
+ 
+  img {
+    max-width: 100%
+  }
 
-p {
-    padding: 10px;
-    font-size: 20px;
+.image {
+ flex-basis: left;
 }
 
+  .text {
+    font-size: 20px;
+    padding-right: 10px;
+    text-align: right;
+    float: right;
+  }
 article{
     text-align: right;
 }
