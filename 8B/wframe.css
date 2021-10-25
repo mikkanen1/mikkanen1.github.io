@@ -2,3 +2,34 @@ body {
     background-color: gray;
     color: honeydew;
 }
+
+header {
+
+    padding: 5px;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+  }
+
+p {
+    padding: 10px;
+    font-size: 15px;
+}
+
+article{
+    text-align: right;
+}
+
+img {
+    align-items: left;
+    width: 1150px;
+    height: 665px;
+}
+
+nav {
+    float: left;
+    width: 10%;
+    height: 625px; 
+    background: #ccc;
+    padding: 20px;
+  }
