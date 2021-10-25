@@ -3,6 +3,12 @@ body {
     color: honeydew;
 }
 
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
 header {
 
     padding: 5px;
