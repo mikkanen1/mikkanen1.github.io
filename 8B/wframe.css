@@ -7,6 +7,7 @@ a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
+    padding: 5px;
   }
 
 header {
@@ -17,16 +18,15 @@ header {
     color: white;
   }
   .container {
+    display: flex;
     align-items: center;
     justify-content: center
   }
  
-  img {
-    max-width: 100%
-  }
 
 .image {
  flex-basis: left;
+ width: 80%;
 }
 
   .text {
@@ -34,14 +34,12 @@ header {
     padding-right: 10px;
     text-align: right;
     float: right;
+
   }
-article{
-    text-align: right;
-}
 
 img {
     align-items: left;
-    width: 1150px;
+    width: 900px;
     height: 665px;
 }
 
@@ -52,3 +50,4 @@ nav {
     background: #ccc;
     padding: 20px;
   }
+  
