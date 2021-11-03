@@ -1,1 +1,52 @@
+body {
+    background-color: cadetblue;
+}
 
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: green;
+      color: wheat;
+    }
+}
+
+h1 {
+    text-shadow: 2px 2px #FF0000;
+  }
+
+  p {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color:hotpink;
+  }
+
+  #div1 {
+    width: 390px;
+    height: 175px;
+    border: 1px solid;
+    padding: 25px;
+    font-size: 25px;
+    box-shadow: 2px 5px black;
+    transition: width 2s;
+}
+  
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: red;
+    transition: color 2s;
+}
+
+#div1:hover {
+    width: 800px;
+  }
+
+  #div2 {
+    border: 1px solid;
+    padding: 75px;
+    font-size: 25px;
+    box-shadow: 2px 5px red;
+    background-image: url("Haavoittunut_enkeli.jpg");
+    background-repeat: no-repeat;
+  background-size: cover 350px;
+  }
