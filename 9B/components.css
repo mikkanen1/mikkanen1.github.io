@@ -1,1 +1,21 @@
+body {
+    background-color: honeydew;
+}
 
+.navbar {
+    color: hotpink;
+    text-align: center;
+}
+
+.header {
+    color:hotpink;
+    text-align: center;
+}
+
+.container {
+    size: 200px;
+}
+
+footer {
+    image-rendering: auto;
+}
