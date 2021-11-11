@@ -1,5 +1,5 @@
 body {
-    color:whitesmoke;
+color:whitesmoke;
 background-image: url('https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/358460/205e66f84fb0aad57047fe5b5f1b3abc79cc99ec.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -8,3 +8,17 @@ background-size: 100% 100%;
  h1 {
      text-align: center;
  }
+
+ nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 20px;
+  }
+
+  footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
