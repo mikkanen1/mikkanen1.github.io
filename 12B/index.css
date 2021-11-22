@@ -10,18 +10,34 @@ body {
      text-align: center;
  }
 
- nav {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    padding: 20px;
-  }
+header {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+article {
+  float: left;
+  width: 60%;
+  padding: 20px;
+  color: gray;
+  font-size: 17px;
+}
+
+aside {
+  float: right;
+  width: 40%;
+  padding: 20px;
+}
 
   footer {
     background-color: black;
     padding: 10px;
     text-align: center;
     color: white;
+    float: bottom;
+    padding-bottom: 125px;
+    width: 100%;
   }
 
   a:link {
@@ -32,6 +48,7 @@ body {
     color: red;
     background-color: transparent;
     text-decoration: underline;
+    padding: 10px;
   }
 
   a:active {
