@@ -12,7 +12,7 @@ body {
 
 header {
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   font-size: 20px;
 }
 
@@ -30,12 +30,16 @@ aside {
   padding: 20px;
 }
 
+img {
+  float: right;
+  height: 500px;
+  width: 700px;
+}
   footer {
     background-color: black;
-    padding: 10px;
     text-align: center;
     color: white;
-    float: bottom;
+    padding: 10px;
     padding-bottom: 125px;
     width: 100%;
   }
