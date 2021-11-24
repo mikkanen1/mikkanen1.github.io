@@ -39,7 +39,7 @@ aside {
     text-align: center;
     color: white;
     padding-bottom: 135px;
-    border: purple;
+    border: purple, dotted;
     border: 2px;
   }
 
