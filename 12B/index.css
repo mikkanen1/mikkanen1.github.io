@@ -39,6 +39,8 @@ aside {
     text-align: center;
     color: white;
     padding-bottom: 135px;
+    border: purple;
+    border: 2px;
   }
 
   a:link {
