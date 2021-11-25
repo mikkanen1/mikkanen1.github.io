@@ -16,6 +16,10 @@ header {
   font-size: 20px;
 }
 
+.container {
+  color: gold;
+}
+
 article {
   float: left;
   padding: 20px;
@@ -29,18 +33,11 @@ img {
   height: 300px;
 }
 
-aside {
-  float: left;
-  padding: 20px;
-  text-align: center;
-}
-
   footer {
     text-align: center;
     color: white;
     padding-bottom: 135px;
-    border: purple, dotted;
-    border: 2px;
+   background-color: black;
   }
 
   a:link {
