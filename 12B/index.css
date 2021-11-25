@@ -65,6 +65,7 @@ img {
     color: white;
     font-size: 16px;
     border: none;
+    padding: 20px;
   }
   
   .dropdown {
