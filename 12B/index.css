@@ -9,10 +9,12 @@ body {
  h1 {
      text-align: center;
  }
-
-header {
+h2 {
   text-align: center;
   padding: 20px;
+}
+header {
+  text-align: center;
   font-size: 20px;
 }
 
