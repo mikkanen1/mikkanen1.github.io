@@ -18,14 +18,10 @@ header {
 
 .container {
   color: gold;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  color: gray;
+  padding: 10px;
   font-size: 17px;
 }
+
 
 img {
   margin-right: auto;
@@ -46,15 +42,11 @@ img {
 
   a:hover {
     color: red;
-    background-color: transparent;
-    text-decoration: underline;
-    padding: 10px;
   }
 
   a:active {
     color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
+ 
   }
   
   .dropdown-content {
@@ -69,7 +61,6 @@ img {
   .dropbtn {
     background-color: royalblue;
     color: white;
-    padding: 16px;
     font-size: 16px;
     border: none;
   }
