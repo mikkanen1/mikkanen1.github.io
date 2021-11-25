@@ -50,10 +50,71 @@
      </div>
       </div>
 
-      <h2>Here is simply the parts of the lore I have knowledge about, The whole series is about 139 books and half of them aren´t available in Finland
-        <br>"please enjoy!"</br>
+      <h2>"Here is simply the parts of the lore I have knowledge about, The whole series is about 139 books and half of them aren´t available in Finland"<br/>
+        <br>"Please enjoy!"</br>
       <br>-the maker :D</br>
       </h2>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides stay">
+          <div class="numbertext">1 / 3</div>
+          <img src="https://static.wikia.nocookie.net/warhammer40k/images/9/9a/Img001.jpg/revision/latest?cb=20120923073030" style="width:100%">
+          <div class="text">Broplem solving in 41st millennium</div>
+        </div>
+        
+        <div class="mySlides stay">
+          <div class="numbertext">2 / 3</div>
+          <img src="https://qph.fs.quoracdn.net/main-qimg-35f62894ddfa7dfb21abd99c0d2a7eb6" style="width:100%">
+          <div class="text">Usually it involves violence</div>
+        </div>
+        
+        <div class="mySlides stay">
+          <div class="numbertext">3 / 3</div>
+          <img src="https://i.ytimg.com/vi/IITHK15dK-0/maxresdefault.jpg" style="width:100%">
+          <div class="text">And if not, youre not using it enough</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+        <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>        
 
     <footer>
       <H1>Community</H1>
