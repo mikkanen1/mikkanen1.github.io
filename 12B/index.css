@@ -10,10 +10,6 @@ body {
      text-align: center;
  }
 
-p {
-  color: gold;
-}
-
 h2 {
   text-align: center;
   padding: 20px;
@@ -44,6 +40,10 @@ img {
    background-color: black;
   }
 
+  p {
+    color: gold;
+  }
+  
   a:link {
       color: white;
   }
