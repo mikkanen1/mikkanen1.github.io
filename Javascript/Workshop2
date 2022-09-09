@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Workshop 2</title>
+		<style>
+			body {
+				font-family: "Trebuchet MS", Helvetica, sans-serif;
+				color: #333333;
+			}
+		</style>
+		<script>
+			<!-- JavaScript goes here -->
+		</script>
+</head>
+
+
+<p>Workshop 2</p>
+<div>
+<h1>Workshop 2: JavaScript BOM and Events&nbsp; </h1>
+<h2>Save your page with solutions to Github.</h2>
+</div>
+<div><hr /></div>
+<div>
+<p>In this exercise we will practice the use of BOM and the JavaScript events. Use the lecture-material as a reference guide side by side these exercises. It might also be a good idea to save the lines of code you write during the exercises for later use.</p>
+</div>
+<div>
+<h2>Exercise 1</h2>
+</div>
+<div>
+<p>Add JavaScript commands in the script-tag of this page, which will write the following text on the browser page. Use HTML-tags when writing the output to produce the text styles to the page. <br /> <br /> <em><strong>"If I had nine hours to chop down a tree, I'd spend the first six sharpening my ax."</strong> <br /> -- Abraham Lincoln</em></p>
+</div>
+<div>
+<h2>Exercise 2</h2>
+</div>
+<div>
+<p>Write a JavaScript function called repeatingText(). It writes out a line of text to the page for 50 times. (HINT: use loops). How do you make browser run the function?</p>
+</div>
+<div>
+<h2>Exercise 3</h2>
+</div>
+<div>
+<p>Create a JavaScript if-statement, which checks if the user is using Mozilla/Firefox browser. If it is, the browser should load http://mozilla.org. Otherwise go to http://www.microsoft.com" page. Test the code.</p>
+</div>
+<div>
+<h2>Exercise 4</h2>
+</div>
+<div>
+<p>Create a simple web page, where JavaScript confirm-dialog will pop out asking if the user is a student or not. If the user clicks OK write "Welcome student" to the page. If the user clicks cancel, write on the page: "Sorry, this page is for students only". HINT: Confirm(); return true if the user click OK and false if cancel was clicked.</p>
+</div>
+<div>
+<h2>Exercise 5</h2>
+</div>
+<p>Use document.write to output an image tag with an image to the page (demo shown in the class). When you're done, try writing a JavaScript function to display a random image from the following list of images.</p>
+<div>
+<p>HINT: You can access individual images using the table index. Images[0] for example contains the url: "http://farm4.staticflickr.com/3691/11268502654_f28f05966c_m.jpg".</p>
+<p>HINT 2: Random number between 0-2 can be created using var number = Math.round ( Math.random() * 2 )</p>
+<pre>var images =[
+"http://farm4.staticflickr.com/3691/11268502654_f28f05966c_m.jpg", 
+"http://farm1.staticflickr.com/33/45336904_1aef569b30_n.jpg", 
+"http://farm6.staticflickr.com/5211/5384592886_80a512e2c9.jpg"
+];<br /><br /><br /></pre>
+<h2>&nbsp;</h2>
+</div>
+</body></html>
