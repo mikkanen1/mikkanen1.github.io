@@ -9,9 +9,30 @@
 				color: #333333;
 			}
 		</style>
+		
+        <p id="kissa"></p>
+
+        <p id="browser"></p>
+
 		<script>
-			<!-- JavaScript goes here -->
-		</script>
+        document.write("<em><strong>")
+
+let text = "AAAAAAAAAAAAAAAGH <br>";
+let result = text.repeat(50);
+
+document.getElementById("kissa").innerHTML = result;
+
+varselain = navigator.appVersion
+navigator.appVersion
+if (selain.includes('Mozilla')){
+    location.href="http://www.mozilla.org";
+}
+else location.href="http://microsoft.com"
+
+
+
+</script>
+	
 </head>
 
 
