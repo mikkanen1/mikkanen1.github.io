@@ -10,12 +10,13 @@
 			}
 		</style>
 		
+        <script src="koodit.js"></script>
+
         <p id="kissa"></p>
 
         <p id="browser"></p>
 
 		<script>
-        document.write("<em><strong>")
 
 let text = "AAAAAAAAAAAAAAAGH <br>";
 let result = text.repeat(50);
@@ -38,8 +39,6 @@ var images =[
 "http://farm1.staticflickr.com/33/45336904_1aef569b30_n.jpg", 
 "http://farm6.staticflickr.com/5211/5384592886_80a512e2c9.jpg"
 ];
-
-
 </script>
 	
 </head>

@@ -1,4 +1,3 @@
-alert("Anteeksi mutta taisin syödä kissan :D");
+alert("Are you a student?");
 console.log("Tämä on lokkimenoa!");
-document.write("Syötyäni jalopenoja päätin teetättää soutuveneelleni huulet!");
-document.write("<h2>Joskus keitän kahvia vodkaan!</h2>");
+document.write("<em><strong><p>\"If I had nine hours to chop down a tree, I'd spend the first six sharpening my ax.\"<br>-- Abraham Lincoln</strong></p>");
