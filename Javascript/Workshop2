@@ -7,23 +7,23 @@
 			body {
 				font-family: "Trebuchet MS", Helvetica, sans-serif;
 				color: #333333;
+				background-color: beige;
 			}
 		</style>
-		
+
         <script src="koodit.js"></script>
 
         <p id="kissa"></p>
 
-        <p id="browser"></p>
-
 		<script>
 
+//3
 let text = "AAAAAAAAAAAAAAAGH <br>";
 let result = text.repeat(50);
 
 document.getElementById("kissa").innerHTML = result;
 
-//TÄÄLLÄ
+//4 välilyönti alapuolelle!
 varselain = navigator.appVersion
 navigator.appVersion
 if (selain.includes('Mozilla')){
@@ -31,18 +31,15 @@ if (selain.includes('Mozilla')){
 }
 else location.href="http://microsoft.com"
 
-document.write('<img src='+ images[luku]+'>')
+//5
 var number = Math.round ( (Math.random() * 2 ) ) ;
+document.write('<img src='+ images[luku]+'>')
 
 var images =[
 "http://farm4.staticflickr.com/3691/11268502654_f28f05966c_m.jpg",
 "http://farm1.staticflickr.com/33/45336904_1aef569b30_n.jpg",
 "http://farm6.staticflickr.com/5211/5384592886_80a512e2c9.jpg"
 ];
-
-document.write("<img src='https://cdn-images-1.medium.com/max/1600/1*ot7tWiPCYC01pV0kGmK3qQ.png'>");
-
-document.images[0].src = images[number];
 
 </script>
 	
