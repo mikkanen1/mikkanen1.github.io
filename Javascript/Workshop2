@@ -31,9 +31,8 @@ if (selain.includes('Mozilla')){
 }
 else location.href="http://microsoft.com"
 
-//5
+{
 var number = Math.round ( (Math.random() * 2 ) ) ;
-document.write('<img src='+ images[luku]+'>')
 
 var images =[
 "http://farm4.staticflickr.com/3691/11268502654_f28f05966c_m.jpg",
@@ -41,10 +40,26 @@ var images =[
 "http://farm6.staticflickr.com/5211/5384592886_80a512e2c9.jpg"
 ];
 
+document.write("<img src='https://cdn-images-1.medium.com/max/1600/1*ot7tWiPCYC01pV0kGmK3qQ.png'>");
+
+document.images[0].src = images[number];
+}
 </script>
 	
-</head>
+<body>
 
+	<h1 onclick="alert('Hello')">eka sivu</h1>
+	<button>Paina perkele</button>
+	
+	<script>
+	function myFunction() {
+		document.getElementById("Hello").style.color = "red";
+	  }
+	</script>
+	
+	
+	</body>
+</head>
 
 <p>Workshop 2</p>
 <div>
