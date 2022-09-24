@@ -18,6 +18,28 @@ table, tr, td{
 </style>
 <script>
 
+function häly() {
+  alert("You clicked me!" + '\r\n' + new Date());
+}
+
+function taulukko(){ var persons = ["Nyssa P. Skinner", "593-4241 Lacus, St.","Cape Verde", 
+	       "Camilla F. Strickland","391-2150 Ac Rd.","Andorra",
+	       "Reagan U. Andrews", "P.O. Box 472, 2271 Mauris Ave","Faroe Islands",
+	       "Kelsey D. Clark", "P.O. Box 866, 7793 Aliquet Ave","Bulgaria"
+];
+
+document.write('<table border="1"><tr>');
+
+for (var i=0; i < persons.length; i++){
+if (i % 3 == 0) {
+document.write("</tr><tr>");
+} 
+document.write("<td>"+persons[i]+"</td>" );
+
+} 
+document.write("</table>");
+}
+
 <!-- JavaScript goes here -->
 
 
@@ -33,9 +55,9 @@ good idea to save the lines of code you write during the exercises for later use
 <h2>Exercise 1</h2>
 <p>&nbsp;Below you will see three buttons. Edit the source code and add an onClick-events to these buttons.</p>
 <p>
-  <button>Button 1</button>
-  <button>Button 2</button>
-  <button>Button 3</button>
+  <button onclick="häly()">Button 1</button>
+  <button onclick="()">Button 2</button>
+  <button onclick="taulukko()">Button 3</button>
 </p>
 
 <ul>
