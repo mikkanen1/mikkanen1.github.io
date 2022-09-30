@@ -22,6 +22,10 @@ function häly() {
   alert("You clicked me!" + '\r\n' + new Date());
 }
 
+function Perse() {
+  alert("You clicked me!" + '\r\n' + new Date());
+}
+
 function taulukko(){ var persons = ["Nyssa P. Skinner", "593-4241 Lacus, St.","Cape Verde", 
 	       "Camilla F. Strickland","391-2150 Ac Rd.","Andorra",
 	       "Reagan U. Andrews", "P.O. Box 472, 2271 Mauris Ave","Faroe Islands",
@@ -40,9 +44,25 @@ document.write("<td>"+persons[i]+"</td>" );
 document.write("</table>");
 }
 
-<!-- JavaScript goes here -->
+function attention(){
 
+var textbox = document.getElementById('textdata');
 
+textbox.value='Kirjoita tähän kaikkea kivaa'
+
+textbox.style ="background: gold";
+}
+
+function validate(){
+
+var textbox = document.getElementById('textdata');
+if (textbox.value == '' ||textbox.value == 'Kirjoita tähän kaikkea kivaa'){
+	alert("Eiku siihen piti kirjoittaa jotain");
+	return false;
+	}
+		
+}
+//Javat tänne!
 
 </script>
 
@@ -56,7 +76,7 @@ good idea to save the lines of code you write during the exercises for later use
 <p>&nbsp;Below you will see three buttons. Edit the source code and add an onClick-events to these buttons.</p>
 <p>
   <button onclick="häly()">Button 1</button>
-  <button onclick="()">Button 2</button>
+  <button onclick="Perse()">Button 2</button>
   <button onclick="taulukko()">Button 3</button>
 </p>
 
@@ -133,7 +153,7 @@ var persons = ["Nyssa P. Skinner", "593-4241 Lacus, St.","Cape Verde",
 </xmp>
 </ul>
 
-<h2>Exercise 2</h2>
+<h2 onmouseover="console.log('stepped on my mouse')">Exercise 2</h2>
 
 <ul>
   <li>Add an&nbsp;onMouseOver event on the&nbsp;Heading "Exercise 2" of this page.&nbsp;It should&nbsp;fire when the users mouse is moved
@@ -151,10 +171,14 @@ modifying the background color of the box as well. &nbsp;
   <li>When the form button is clicked, check if the textarea is empty. Notify the user with appropriate message. HINT: You can access the Textarea using the following 
 command:   <i>document.getElementById("textdata").value</i>. We will study the forms deeper in Workshops 4 and 5.</li>
 </ul>
-<form>
-  <textarea id="textdata"></textarea><br>
-    <button>Send me</button>
+
+<form onsubmit="return validate(this);">
+  <textarea onkeydown="count();" onfocus="attention();" id="textdata"></textarea><br>
+  <h3 id="counter"></h3>
+    <button>Send it</button>
 </form>
+
+
 <h2>Exercise 4</h2>
 So far you have hardcoded the events into HTML tags. Make a copy of your exercise file and try to add the events dynamically, without touching the HTML at all. This can be 
 achieved using addEventListener() -function, <a target="_blank" href="https://www.w3schools.com/js/js_htmldom_eventlistener.asp"> see more here</a>.
