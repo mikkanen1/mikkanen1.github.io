@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Kellosaaren to do list</title>
+    </head>
+    <body>
+        <h1>Mitä pitää tehdä lista</h1>
+        <h2>Vain Kellosaaren hallituksen käyttöön!</h2>
+        <div class="container">
+            <input type="inputField" type="text"><button id="Lisää listaan">+</button>
+            <div class="to-do" id="todoContainer">
+            </div>
+        </div>
+        <script src="main.js"></script>
+
+
+
+
+
+
+    </body>
+</html>
