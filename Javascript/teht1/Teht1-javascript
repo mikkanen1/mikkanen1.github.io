@@ -1,19 +1,46 @@
-<HTML>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <title>Kellosaaren to do list</title>
-    </head>
-    <body>
-        <h1>Mitä pitää tehdä lista</h1>
-        <h2>Vain Kellosaaren hallituksen käyttöön!</h2>
-        <div class="container">
-            <input type="inputField" type="text"><button id="lisää-nappi">+</button>
-            <div class="to-do" id="todoContainer">
-            </div>
-        </div>
-        <script src="main.js"></script>
-    </body>
+<head>
+
+<link rel="stylesheet" href="styles.css">
+
+<meta charset="UTF-8">
+
+<title>Kellosaaren to-do list</title>
+
+</head>
+
+<body onload="appendMultiple()">
+
+    <h1>Kellosaaren To-Do lista</h1>
+    <h2>Vain Kellosaaren hallituksen käyttöön!</h2>
+<p>Kirjoita tähän tarvittavat tekemiset ja "X" napista voi tehtävän poistaa kun sitä ei tarvita enään!</p>
+
+<div id="textField">
+
+  <input type="text" onclick="clearRed()" id="createTask" name="textField1" class="textArea" placeholder="Kirjoita tehtävä tähän">
+  
+
+</div>
+
+<div>
+<button onclick="addItem()" id="button1" class="addButton">Lisää tehtävä</button>
+</div>
+<div id="ulList" class="ul">
+<ul id="datat" class="null">
+  </ul>
+
+</div>
+
+  <br><br>
+  <button onclick="removeItems()" id="printData" class="addButton">Poista kaikki</button>
+
+
+
+</body>
+<script type="text/javascript" src="to_do_list.js">
+
+</script>
+
+
 </html>

@@ -1,37 +1,87 @@
-html, body{
-    background-color: bisque;
+html {
+    height: 100%;   
+    background-color: beige;
+  }
+  
+  body {
+    background-color: rgb(77, 156, 192);
     width: 50%;
-    margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.container {
-    width: 360px;
-}
-
-#inputField {
-    width: 400px;
-    height: 49px;
-    border: 1px solid crimson;
-    outline: none;
-    font-size: 25px;
-    vertical-align: middle;
-}
-
-#Lisää listaan {
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
-    vertical-align: middle;
-    font-size: 30px;
-}
-
-.to-do {
-    margin-top: 25px;
-}
-
-.paragraph-styling {
-    margin: 0;
- cursor: pointer;
-   font-size: 40px ;
-}
+    margin: auto;
+    margin-top: 32px;
+    padding: 32px;
+    border: 2px solid black;
+    box-shadow: 4px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  .none {
+    display:none;
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .error {
+    border-color: red;
+    color: red;
+  }
+  
+  .textArea {
+    font-size: 24px;
+    color: black;
+    width: 100%;
+  }
+  
+  ul {
+    font-size: 28px;
+    list-style-type: none;
+    padding: 0px;
+    background-color:#555;
+  }
+  
+  li {
+    border-bottom: 1px solid black;
+    padding: 4px;
+    overflow: hidden;
+  }
+  
+  button
+  {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 3px;
+  }
+  
+  ul li:hover {
+    background: #ddd;
+  }
+  ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+  
+  .addButton {
+    padding: 10px;
+    width: 25%;
+    background: #ddd;
+    color: rgb(0, 0, 0);
+    float: none;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 6px;
+  }
+  
+  .done {
+    text-decoration: line-through;
+    background-color: green;
+  }
