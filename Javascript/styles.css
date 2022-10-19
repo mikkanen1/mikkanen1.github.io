@@ -64,7 +64,7 @@ html {
     background: #ddd;
   }
   ul li.checked {
-    background: #888;
+    background: rgb(34, 170, 106);
     color: #fff;
     text-decoration: line-through;
   }
