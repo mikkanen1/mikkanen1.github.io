@@ -15,7 +15,7 @@
     <h1>Kellosaaren To-Do lista</h1>
     <h2>Vain Kellosaaren hallituksen käyttöön!</h2>
 <p>Kirjoita tähän tarvittavat tekemiset ja "X" napista voi tehtävän poistaa kun sitä ei tarvita enään!</p>
-
+<p>Kaksois klikkaamalla tekstiä saat sen yliviivattua kun se on tehty</p>
 <div id="textField">
 
   <input type="text" onclick="clearRed()" id="createTask" name="textField1" class="textArea" placeholder="Kirjoita tehtävä tähän">

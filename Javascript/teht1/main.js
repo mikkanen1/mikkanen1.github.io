@@ -130,7 +130,7 @@ window.localStorage.tasks=listItems;
 
 //delete localStorage, ask if it's ok to remove everything
 function removeItems() {
-	var isOK=confirm("Do you want to delete all list items?");
+	var isOK=confirm("Oletko varma että haluat poistaa kaikki?");
 	if (isOK==true) {
 	listItems=[];
 	window.localStorage.removeItem("tasks");
