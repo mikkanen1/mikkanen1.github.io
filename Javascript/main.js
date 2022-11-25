@@ -61,7 +61,7 @@ function appendMultiple() {
 	// Kun vastaus saapuu, niin...
 	xmlhttp.onreadystatechange = function () {
 		// Tarkista että kaikki ok
-
+	
 		if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
 			// Aseta vastauksen sisältö myDiv-nimiseen lohkoon
 
@@ -83,6 +83,7 @@ function appendMultiple() {
 			}
 		} // if
 		// function
+
 		for (var j = 0; j < myArray.length; j++) {
 			addItemsOnLoad();
 		};
