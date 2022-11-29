@@ -56,7 +56,7 @@ function appendMultiple() {
 	let url = "https://to-do-list-798c0-default-rtdb.europe-west1.firebasedatabase.app/.json"
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", url, true);
-	xmlhttp.send("PUT", ul, true);
+	xmlhttp.send();
 
 	// Kun vastaus saapuu, niin...
 	xmlhttp.onreadystatechange = function () {
@@ -100,7 +100,9 @@ function addItem() {
 	var t = document.createTextNode(task);
 	var colorChange = document.getElementById("createTask");
 	x.numberValue = i;
+	xmlhttp.send("PUT", url, true);
 
+	
 	//check input and cancel if there's an issue, add red border on error
 
 	if (task == "") {
