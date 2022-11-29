@@ -56,7 +56,7 @@ function appendMultiple() {
 	let url = "https://to-do-list-798c0-default-rtdb.europe-west1.firebasedatabase.app/.json"
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", url, true);
-	xmlhttp.send();
+	xmlhttp.send("PUT", ul, true);
 
 	// Kun vastaus saapuu, niin...
 	xmlhttp.onreadystatechange = function () {
